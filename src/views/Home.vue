@@ -9,6 +9,7 @@
 
     <h1 class="text-center">Contact:</h1>
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 import Projects from "../components/Projects.vue";
 import Bio from "../components/Bio.vue";
 import Contact from "../components/Contact.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   name: "Home",
@@ -25,7 +27,7 @@ export default {
   },
   computed: {},
   methods: {},
-  components: { Projects, Bio, Contact }
+  components: { Projects, Bio, Contact, Footer }
 };
 </script>
 
