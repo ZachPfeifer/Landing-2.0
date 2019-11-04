@@ -6,9 +6,7 @@
     <h1 class="text-center">Bio:</h1>
     <Bio />
     <hr />
-    <h1 class="text-center">Icons:</h1>
-    <Icons />
-    <hr />
+
     <h1 class="text-center">Contact:</h1>
     <Contact />
   </div>
@@ -18,7 +16,6 @@
 <script>
 import Projects from "../components/Projects.vue";
 import Bio from "../components/Bio.vue";
-import Icons from "../components/Icons.vue";
 import Contact from "../components/Contact.vue";
 
 export default {
@@ -28,7 +25,7 @@ export default {
   },
   computed: {},
   methods: {},
-  components: { Projects, Bio, Icons, Contact }
+  components: { Projects, Bio, Contact }
 };
 </script>
 
