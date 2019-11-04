@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <Hello />
-    <Hello />
-  </div>
+  <div class="Home"></div>
 </template>
 
-<script>
-  // @ is an alias to /src
-  import Hello from '@/components/HelloWorld.vue'
 
-  export default {
-    name: 'home',
-    components: {
-      Hello
-    }
-  }
+<script>
+export default {
+  name: "Home",
+  data() {
+    return {};
+  },
+  computed: {},
+  methods: {},
+  components: {}
+};
 </script>
+
+
+<style scoped>
+</style>
