@@ -36,12 +36,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/TimDohmen/HighlandAuthority';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://highland-games.herokuapp.com/?#/login';"
                   >Website</button>
                 </p>
@@ -71,12 +71,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZachPfeifer/Inspire';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://zachpfeifer.github.io/Inspire/';"
                   >Website</button>
                 </p>
@@ -105,12 +105,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZachPfeifer/Boss-Fight';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://zachpfeifer.github.io/Boss-Fight/';"
                   >Website</button>
                 </p>
@@ -145,10 +145,10 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZachPfeifer/Console-Adventure';"
                   >GitHub</button>
-                  <!-- <button type="button" class="btn btn-dark"
+                  <!-- <button type="button" class="btn btn-dark m-1"
                   onclick="window.location.href = 'https://highland-games.herokuapp.com/?#/login';">Website</button>-->
                 </p>
               </div>
@@ -175,12 +175,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZacharyTyler/Kanban';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://zachkanban.herokuapp.com/#/login';"
                   >Website</button>
                 </p>
@@ -208,12 +208,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZachPfeifer/Keepr';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://www.stickpng.com/assets/thumbs/58889546bc2fc2ef3a1860b8.png';"
                   >Website</button>
                 </p>
@@ -230,25 +230,28 @@
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img
-                  src="https://www.stickpng.com/assets/thumbs/58889546bc2fc2ef3a1860b8.png"
-                  alt="Total-Rick'All"
+                  src="../assets/poundconv.png"
+                  alt="Pound-Converter"
                   style="width:300px;height:300px;"
                 />
-                <h1 class="centered">Coming Soon</h1>
+                <h1 class="centered">Weight Converter</h1>
               </div>
               <div class="flip-card-back">
                 <hr />
-                <p>UNKOWN</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero hic praesentium necessitatibus eos ut. Quaerat, quasi praesentium iure veniam dicta vero debitis facilis, cupiditate ut reprehenderit ipsam libero! Voluptas, est.</p>
+                <p>Javascript / BootStrap</p>
+                <p>Simple weight converter that converts pounds to grams, kilos, and ounces</p>
                 <hr />
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
-                    onclick="window.location.href = 'https://github.com/ZachPfeifer/Console-Adventure';"
+                    class="btn btn-dark m-1"
+                    onclick="window.location.href = 'https://github.com/ZachPfeifer/weight-converter/';"
                   >GitHub</button>
-                  <!-- <button type="button" class="btn btn-dark"
-                  onclick="window.location.href = 'https://highland-games.herokuapp.com/?#/login';">Website</button>-->
+                  <button
+                    type="button"
+                    class="btn btn-dark m-1"
+                    onclick="window.location.href = 'https://zachpfeifer.github.io/weight-converter/';"
+                  >Website</button>
                 </p>
               </div>
             </div>
@@ -271,12 +274,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZacharyTyler/Kanban';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://zachkanban.herokuapp.com/#/login';"
                   >Website</button>
                 </p>
@@ -301,12 +304,12 @@
                 <p class="card-text">
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://github.com/ZachPfeifer/Keepr';"
                   >GitHub</button>
                   <button
                     type="button"
-                    class="btn btn-dark"
+                    class="btn btn-dark m-1"
                     onclick="window.location.href = 'https://www.stickpng.com/assets/thumbs/58889546bc2fc2ef3a1860b8.png';"
                   >Website</button>
                 </p>
