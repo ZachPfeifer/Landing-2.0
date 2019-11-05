@@ -59,11 +59,11 @@
 
         <div class="w3-third">
           <h3>
-            <i class="fas fa-toolbox fa-2x w3-margin-right"></i>Most Used Tools:
+            <i class="fas fa-toolbox fa-2x w3-margin-right"></i>Helpful Links:
           </h3>
           <hr />
           <p>
-            <span class="w3-tag w3-black w3-margin-bottom">
+            <span class="w3-tag w3-dark-grey w3-margin-bottom text-white">
               <a class="social-link" href="https://www.w3schools.com">
                 W3
                 Schools
@@ -86,6 +86,18 @@
             </span>
             <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">
               <a class="social-link" href="https://stackoverflow.com">Stack Overflow</a>
+            </span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">
+              <a class="social-link" href="https://edabit.com/challenges">WhiteBoard Challenges</a>
+            </span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">
+              <a class="social-link" href="https://www.freecodecamp.org/">Free Codecamp</a>
+            </span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">
+              <a class="social-link" href="https://htmlcheatsheet.com/js/">Coding Cheat Sheet</a>
+            </span>
+            <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">
+              <a class="social-link" href="https://vuejs.org/v2/guide/">Vue.js Docs</a>
             </span>
           </p>
           <hr />
@@ -110,4 +122,7 @@ export default {
 
 
 <style scoped>
+.text-white {
+  color: aliceblue;
+}
 </style>

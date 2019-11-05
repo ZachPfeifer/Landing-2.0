@@ -1,7 +1,7 @@
 <template>
-  <div id="app container-fluid">
+  <div id="app container-fluid op">
     <!-- Sidebar/menu -->
-    <div class>
+    <!-- <div class>
       <nav
         class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center bg-nav"
         style="z-index:3;width:300px;font-weight:bold"
@@ -22,39 +22,50 @@
         <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT ME</a>
         <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-      </nav>
+    </nav>-->
 
-      <!-- Top menu on small screens -->
-      <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+    <!-- Top menu on small screens -->
+    <!-- <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
         <span class="w3-left w3-padding">Zachary Pfeifer</span>
         <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
-      </header>
+    </header>-->
 
-      <!-- Overlay effect when opening sidebar on small screens -->
-      <div
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <!-- <div
         class="w3-overlay w3-hide-large w3-animate-opacity"
         onclick="w3_close()"
         style="cursor:pointer"
         title="close side menu"
         id="myOverlay"
-      ></div>
+    ></div>-->
 
-      <!-- !PAGE CONTENT! -->
-      <div class="w3-main" style="margin-left:300px">
-        <!-- Push down content on small screens -->
-        <div class="w3-hide-large" style="margin-top:83px"></div>
+    <!-- !PAGE CONTENT! -->
+    <!-- <div class="w3-main" style="margin-left:300px"> -->
+    <!-- Push down content on small screens -->
+    <!-- <div class="w3-hide-large" style="margin-top:83px"></div> -->
 
-        <!-- <div id="nav"> -->
-        <!-- <router-link to="/">Home</router-link>| -->
-        <!-- <router-link to="/about">About</router-link> -->
-        <!-- </div> -->
-        <router-view class="op container m-5" />
-        <!-- //FIXME padding???S -->
-      </div>
-    </div>
+    <!-- <div id="nav"> -->
+    <!-- <router-link to="/">Home</router-link>| -->
+    <!-- <router-link to="/about">About</router-link> -->
+    <!-- </div> -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center ml-4"
+      style="z-index:3;width:300px;font-weight:bold"
+      id="mySidebar"
+    >
+      <MenuCard class="op" />
+    </nav>
+    <router-view class="op container" />
+    <!-- //FIXME padding???S -->
   </div>
 </template>
 
+<script>
+import MenuCard from "./components/MenuCard.vue";
+export default {
+  components: { MenuCard }
+};
+</script>
 
 <style>
 #app {
@@ -80,4 +91,6 @@
 .op {
   background-color: rgba(255, 254, 254, 0.644);
 }
+
+/* NEW CARD TRIAL */
 </style>

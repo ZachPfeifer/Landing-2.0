@@ -24,7 +24,11 @@
             <label>Message</label>
             <input class="w3-input w3-border" type="text" name="Message" required />
           </div>
-          <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+          <button
+            @click="SnedMessage()"
+            type="submit"
+            class="w3-button w3-block w3-black w3-margin-bottom"
+          >Send Message</button>
         </form>
       </div>
     </div>
@@ -38,7 +42,9 @@ export default {
   data() {
     return {};
   },
-  computed: {},
+  computed: {
+    SendMesage() {}
+  },
   methods: {},
   components: {}
 };

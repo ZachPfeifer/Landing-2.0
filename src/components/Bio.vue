@@ -8,7 +8,7 @@
       <hr />
       <img
         class="w3-image w3-padding-32"
-        src="../assets/about-me-picture.jpg"
+        src="../assets/Bio-Pic.jpg"
         alt="Pretty Boiii"
         width="300"
         height="325"
@@ -41,7 +41,7 @@
         <div class="w3-white">
           <div class="w3-container w3-padding-small w3-center w3-grey" style="width:50%">Comfortable</div>
         </div>
-        <a href="/images/ZacharyPfeiferSD-Resume.pdf" download>
+        <a href="../assests/ZacharyPfeiferSD-Resume.pdf" download>
           <button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom">
             Download
             Resume

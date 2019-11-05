@@ -1,13 +1,11 @@
 <template>
-  <div class="Home container-fluid">
+  <div class="Home container-fluid mx-auto">
     <h1 class="text-center">Current Work:</h1>
     <Projects class="d-flex justify-content-between scrible-text scrible-text text-center" />
     <hr />
-    <h1 class="text-center">Bio:</h1>
     <Bio />
     <hr />
 
-    <h1 class="text-center">Contact:</h1>
     <Contact />
     <Footer />
   </div>
